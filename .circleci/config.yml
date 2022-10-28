@@ -9,7 +9,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command: xcodebuild -project demo-circle-ci.xcodeproj -scheme "demo-circle-ci" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 8 Plus,OS=14.0" -enableCodeCoverage YES test
+          command: xcodebuild -project demo-circle-ci.xcodeproj -scheme "demo-circle-ci" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 8 Plus,OS=15.0" -enableCodeCoverage YES test
       - store_test_results:
           path: test-results
 
