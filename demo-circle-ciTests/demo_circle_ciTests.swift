@@ -23,6 +23,8 @@ final class demo_circle_ciTests: XCTestCase {
         // Any test you write for XCTest can be annotated as throws and async.
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+        let i = 0
+        XCTAssert(i == 0, "Equal")
     }
 
     func testPerformanceExample() throws {
